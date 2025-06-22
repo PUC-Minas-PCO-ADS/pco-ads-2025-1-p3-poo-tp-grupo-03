@@ -8,7 +8,6 @@ namespace ControleDeEnergia.Models
 {
     public abstract class Consumidor
     {
-        public int Id { get; set; }
         public string Nome { get; set; }
         protected List<ContaDeEnergia> Contas = new();
 

@@ -16,11 +16,6 @@ namespace ControleDeEnergia.Repositories
             contas.Add(conta);
         }
 
-        public ContaDeEnergia BuscarPorId(int id)
-        {
-            return contas.FirstOrDefault(c => c.Id == id);
-        }
-
         public List<ContaDeEnergia> ListarTodos()
         {
             return new List<ContaDeEnergia>(contas);

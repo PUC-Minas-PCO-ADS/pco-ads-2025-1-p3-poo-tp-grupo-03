@@ -15,3 +15,8 @@ C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\Con
 C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.pdb
 C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.genruntimeconfig.cache
 C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ref\ControleDeEnergia.dll
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.Forms.CadastroConsumidorUserControl.resources
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.Forms.CadastroContaUserControl.resources
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.Properties.Resources.resources
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.Forms.InicioUserControl.resources
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.Forms.ConsultaUserControl.resources

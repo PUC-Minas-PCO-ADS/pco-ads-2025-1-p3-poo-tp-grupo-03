@@ -18,10 +18,6 @@ namespace ControleDeEnergia.Repositories
             consumidores.Add(consumidor);
         }
 
-        public Consumidor BuscarPorId(int id)
-        {
-            return consumidores.FirstOrDefault(c => c.Id == id);
-        }
 
         public List<Consumidor> ListarTodos()
         {

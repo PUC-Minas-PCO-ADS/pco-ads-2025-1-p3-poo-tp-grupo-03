@@ -8,7 +8,6 @@ namespace ControleDeEnergia.Models
 {
     public abstract class ContaDeEnergia
     {
-        public int Id { get; set; }
         public double LeituraAtual { get; set; }
         public double LeituraAnterior { get; set; }
         public DateTime DataConta { get; set; }

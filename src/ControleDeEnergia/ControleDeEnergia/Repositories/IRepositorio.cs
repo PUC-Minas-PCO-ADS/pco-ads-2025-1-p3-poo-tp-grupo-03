@@ -9,7 +9,6 @@ namespace ControleDeEnergia.Repositories
     internal interface IRepositorio<T>
     {
         void Adicionar(T obj);
-        T BuscarPorId(int id);
         List<T> ListarTodos();
         void SalvarArquivo();
         void CarregarArquivo();
