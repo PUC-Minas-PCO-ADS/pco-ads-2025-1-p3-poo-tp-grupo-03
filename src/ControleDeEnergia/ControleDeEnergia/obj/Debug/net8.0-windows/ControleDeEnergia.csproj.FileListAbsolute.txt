@@ -1,0 +1,17 @@
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\bin\Debug\net8.0-windows\ControleDeEnergia.exe
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\bin\Debug\net8.0-windows\ControleDeEnergia.deps.json
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\bin\Debug\net8.0-windows\ControleDeEnergia.runtimeconfig.json
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\bin\Debug\net8.0-windows\ControleDeEnergia.dll
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\bin\Debug\net8.0-windows\ControleDeEnergia.pdb
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.Form1.resources
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.csproj.GenerateResource.cache
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.AssemblyInfoInputs.cache
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.AssemblyInfo.cs
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.sourcelink.json
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.dll
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\refint\ControleDeEnergia.dll
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.pdb
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ControleDeEnergia.genruntimeconfig.cache
+C:\Users\pablo\Desktop\Github Projects\pco-ads-2025-1-p3-poo-tp-grupo-03\src\ControleDeEnergia\ControleDeEnergia\obj\Debug\net8.0-windows\ref\ControleDeEnergia.dll

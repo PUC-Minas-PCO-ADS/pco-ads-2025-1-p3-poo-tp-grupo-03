@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\factories\\consumidorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\factories\\consumidorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\models\\pessoajuridica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\models\\pessoajuridica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\models\\pessoafisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\models\\pessoafisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\repositories\\repositorioconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\repositories\\repositorioconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\repositories\\repositorioconsumidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\repositories\\repositorioconsumidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\repositories\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\repositories\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\models\\contaresidencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\models\\contaresidencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\models\\contadeenergia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\models\\contadeenergia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\models\\contacomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\models\\contacomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\models\\consumidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\models\\consumidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|c:\\users\\pablo\\desktop\\github projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\controledeenergia\\controledeenergia\\forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01CAAB8-CC92-41EF-969D-64DCBFE74A47}|ControleDeEnergia\\ControleDeEnergia.csproj|solutionrelative:controledeenergia\\forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,19 +70,162 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Form1.cs",
-              "RelativeDocumentMoniker": "ControleDeEnergia\\Form1.cs",
-              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Form1.cs [Projeto]",
-              "RelativeToolTip": "ControleDeEnergia\\Form1.cs [Projeto]",
+              "DocumentIndex": 3,
+              "Title": "RepositorioConta.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Repositories\\RepositorioConta.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Repositories\\RepositorioConta.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Repositories\\RepositorioConta.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Repositories\\RepositorioConta.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:17:01.288Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-06-22T18:51:25.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Repositories\\IRepositorio.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Repositories\\IRepositorio.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Repositories\\IRepositorio.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Repositories\\IRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:00:07.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositorioConsumidor.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Repositories\\RepositorioConsumidor.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Repositories\\RepositorioConsumidor.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Repositories\\RepositorioConsumidor.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Repositories\\RepositorioConsumidor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:00:21.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumidorFactory.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Factories\\ConsumidorFactory.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Factories\\ConsumidorFactory.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Factories\\ConsumidorFactory.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Factories\\ConsumidorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:59:13.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PessoaJuridica.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\PessoaJuridica.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Models\\PessoaJuridica.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\PessoaJuridica.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Models\\PessoaJuridica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:58:03.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PessoaFisica.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\PessoaFisica.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Models\\PessoaFisica.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\PessoaFisica.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Models\\PessoaFisica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:57:55.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContaResidencial.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\ContaResidencial.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Models\\ContaResidencial.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\ContaResidencial.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Models\\ContaResidencial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:58:51.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContaDeEnergia.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\ContaDeEnergia.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Models\\ContaDeEnergia.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\ContaDeEnergia.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Models\\ContaDeEnergia.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:58:17.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContaComercial.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\ContaComercial.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Models\\ContaComercial.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\ContaComercial.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Models\\ContaComercial.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:58:37.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Consumidor.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\Consumidor.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Models\\Consumidor.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Models\\Consumidor.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Models\\Consumidor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:57:06.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Forms\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Forms\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Forms\\Form1.Designer.cs",
+              "RelativeToolTip": "ControleDeEnergia\\Forms\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:48:19.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "ControleDeEnergia\\Forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\pablo\\Desktop\\Github Projects\\pco-ads-2025-1-p3-poo-tp-grupo-03\\src\\ControleDeEnergia\\ControleDeEnergia\\Forms\\Form1.cs [Projeto]",
+              "RelativeToolTip": "ControleDeEnergia\\Forms\\Form1.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:17:01.288Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }
