@@ -1,0 +1,23 @@
+[
+  {
+    "$type": "ContaResidencial",
+    "LeituraAtual": 1135,
+    "LeituraAnterior": 700,
+    "DataConta": "2025-06-18T22:45:01.337",
+    "Instalacao": "21"
+  },
+  {
+    "$type": "ContaComercial",
+    "LeituraAtual": 49000,
+    "LeituraAnterior": 20000,
+    "DataConta": "2025-06-19T22:45:01.337",
+    "Instalacao": "45"
+  },
+  {
+    "$type": "ContaComercial",
+    "LeituraAtual": 3000,
+    "LeituraAnterior": 8000,
+    "DataConta": "2025-06-19T22:45:01.337",
+    "Instalacao": "45"
+  }
+]
