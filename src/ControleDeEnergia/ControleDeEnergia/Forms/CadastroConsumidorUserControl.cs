@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ControleDeEnergia.Factories;
+using ControleDeEnergia.Models;
+using ControleDeEnergia.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +15,14 @@ namespace ControleDeEnergia.Forms
 {
     public partial class CadastroConsumidorUserControl : UserControl
     {
-        public CadastroConsumidorUserControl()
+
+        private RepositorioConsumidor repositorioConsumidor;
+        public CadastroConsumidorUserControl(RepositorioConsumidor repo)
         {
             InitializeComponent();
+            repositorioConsumidor = repo;
+            if (tipoDocumento.Items.Count > 0)
+                tipoDocumento.SelectedIndex = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -50,17 +58,49 @@ namespace ControleDeEnergia.Forms
 
         private void label2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void saveCadastroBtn_Click(object sender, EventArgs e)
         {
-            
+            string nome = textBox1.Text.Trim();
+            string tipo = tipoDocumento.SelectedItem?.ToString();
+            string documento = documentoTextBox.Text.Trim();
+
+            if (string.IsNullOrEmpty(nome))
+            {
+                MessageBox.Show("Preencha o nome do consumidor.");
+                return;
+            }
+            if (string.IsNullOrEmpty(tipo))
+            {
+                MessageBox.Show("Selecione o tipo de documento.");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(documento) || documento.Contains(" "))
+            {
+                MessageBox.Show($"Preencha corretamente o {tipo}.");
+                return;
+            }
+
+            Consumidor novoConsumidor = ConsumidorFactory.CriarConsumidor(tipo, nome, documento);
+            repositorioConsumidor.Adicionar(novoConsumidor);
+
+            MessageBox.Show("Consumidor cadastrado com sucesso!");
+            repositorioConsumidor.SalvarArquivo();
+
+            textBox1.Clear();
+            documentoTextBox.Clear();
+        }
+
+        private void CadastroConsumidorUserControl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

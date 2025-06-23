@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             documentoTextBox = new MaskedTextBox();
-            saveCadastroBtn = new Button();
+            consultarBtn = new Button();
             tipoLabel = new Label();
             tipoDocumento = new ComboBox();
             label2 = new Label();
@@ -46,30 +46,31 @@
             // 
             // documentoTextBox
             // 
-            documentoTextBox.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            documentoTextBox.Location = new Point(273, 59);
+            documentoTextBox.Font = new Font("Lucida Sans Unicode", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            documentoTextBox.Location = new Point(379, 46);
             documentoTextBox.Name = "documentoTextBox";
-            documentoTextBox.Size = new Size(164, 32);
+            documentoTextBox.Size = new Size(179, 26);
             documentoTextBox.TabIndex = 15;
             // 
-            // saveCadastroBtn
+            // consultarBtn
             // 
-            saveCadastroBtn.Cursor = Cursors.Hand;
-            saveCadastroBtn.Location = new Point(468, 61);
-            saveCadastroBtn.Name = "saveCadastroBtn";
-            saveCadastroBtn.Size = new Size(97, 28);
-            saveCadastroBtn.TabIndex = 14;
-            saveCadastroBtn.Text = "Consultar";
-            saveCadastroBtn.UseVisualStyleBackColor = true;
+            consultarBtn.Cursor = Cursors.Hand;
+            consultarBtn.Location = new Point(824, 45);
+            consultarBtn.Name = "consultarBtn";
+            consultarBtn.Size = new Size(97, 28);
+            consultarBtn.TabIndex = 14;
+            consultarBtn.Text = "Consultar";
+            consultarBtn.UseVisualStyleBackColor = true;
+            consultarBtn.Click += consultarBtn_Click;
             // 
             // tipoLabel
             // 
             tipoLabel.AutoSize = true;
-            tipoLabel.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tipoLabel.Font = new Font("Lucida Sans Unicode", 9F);
             tipoLabel.ForeColor = SystemColors.ControlDarkDark;
-            tipoLabel.Location = new Point(218, 63);
+            tipoLabel.Location = new Point(345, 51);
             tipoLabel.Name = "tipoLabel";
-            tipoLabel.Size = new Size(38, 20);
+            tipoLabel.Size = new Size(28, 16);
             tipoLabel.TabIndex = 13;
             tipoLabel.Text = "CPF";
             // 
@@ -77,12 +78,12 @@
             // 
             tipoDocumento.BackColor = SystemColors.Window;
             tipoDocumento.Cursor = Cursors.Hand;
-            tipoDocumento.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tipoDocumento.Font = new Font("Lucida Sans Unicode", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tipoDocumento.FormattingEnabled = true;
             tipoDocumento.Items.AddRange(new object[] { "CPF", "CNPJ" });
-            tipoDocumento.Location = new Point(134, 60);
+            tipoDocumento.Location = new Point(77, 47);
             tipoDocumento.Name = "tipoDocumento";
-            tipoDocumento.Size = new Size(62, 28);
+            tipoDocumento.Size = new Size(62, 24);
             tipoDocumento.TabIndex = 12;
             tipoDocumento.SelectedIndexChanged += tipoDocumento_SelectedIndexChanged;
             // 
@@ -90,7 +91,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Lucida Sans Unicode", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(185, 14);
+            label2.Location = new Point(323, 0);
             label2.Name = "label2";
             label2.Size = new Size(276, 28);
             label2.TabIndex = 10;
@@ -99,85 +100,88 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Lucida Sans Unicode", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.ControlDarkDark;
-            label3.Location = new Point(84, 60);
+            label3.Location = new Point(30, 51);
             label3.Name = "label3";
-            label3.Size = new Size(44, 20);
+            label3.Size = new Size(33, 16);
             label3.TabIndex = 8;
             label3.Text = "Tipo";
+            label3.Click += label3_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(28, 107);
+            dataGridView1.Location = new Point(28, 79);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(610, 83);
+            dataGridView1.Size = new Size(893, 181);
             dataGridView1.TabIndex = 16;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Lucida Sans Unicode", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlDarkDark;
-            label1.Location = new Point(37, 210);
+            label1.Location = new Point(28, 292);
             label1.Name = "label1";
-            label1.Size = new Size(174, 40);
+            label1.Size = new Size(206, 18);
             label1.TabIndex = 17;
-            label1.Text = "Consumo de energia\r\nno ultimo mês";
+            label1.Text = "Consumo total de energia:";
+            label1.Click += label1_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Lucida Sans Unicode", 11.25F);
             label4.ForeColor = SystemColors.ControlDarkDark;
-            label4.Location = new Point(284, 210);
+            label4.Location = new Point(405, 292);
             label4.Name = "label4";
-            label4.Size = new Size(120, 40);
+            label4.Size = new Size(209, 18);
             label4.TabIndex = 18;
-            label4.Text = "Valor total da \r\nultima conta";
+            label4.Text = "Valor total da ultima conta:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Lucida Sans Unicode", 11.25F);
             label5.ForeColor = SystemColors.ControlDarkDark;
-            label5.Location = new Point(478, 210);
+            label5.Location = new Point(730, 292);
             label5.Name = "label5";
-            label5.Size = new Size(145, 60);
+            label5.Size = new Size(191, 18);
             label5.TabIndex = 19;
-            label5.Text = "Valor total da \r\nultima conta sem\r\nimpostos";
+            label5.Text = "Valor total sem imposto:";
             // 
             // consumoAnterior
             // 
             consumoAnterior.AutoSize = true;
-            consumoAnterior.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            consumoAnterior.Font = new Font("Lucida Sans Unicode", 14.25F);
             consumoAnterior.ForeColor = SystemColors.ControlDarkDark;
-            consumoAnterior.Location = new Point(98, 287);
+            consumoAnterior.Location = new Point(28, 328);
             consumoAnterior.Name = "consumoAnterior";
-            consumoAnterior.Size = new Size(19, 20);
+            consumoAnterior.Size = new Size(22, 23);
             consumoAnterior.TabIndex = 20;
             consumoAnterior.Text = "0";
+            consumoAnterior.Click += consumoAnterior_Click;
             // 
             // valorTotal
             // 
             valorTotal.AutoSize = true;
-            valorTotal.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            valorTotal.Font = new Font("Lucida Sans Unicode", 14.25F);
             valorTotal.ForeColor = SystemColors.ControlDarkDark;
-            valorTotal.Location = new Point(326, 287);
+            valorTotal.Location = new Point(405, 328);
             valorTotal.Name = "valorTotal";
-            valorTotal.Size = new Size(19, 20);
+            valorTotal.Size = new Size(22, 23);
             valorTotal.TabIndex = 21;
             valorTotal.Text = "0";
             // 
             // semImposto
             // 
             semImposto.AutoSize = true;
-            semImposto.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            semImposto.Font = new Font("Lucida Sans Unicode", 14.25F);
             semImposto.ForeColor = SystemColors.ControlDarkDark;
-            semImposto.Location = new Point(537, 287);
+            semImposto.Location = new Point(730, 328);
             semImposto.Name = "semImposto";
-            semImposto.Size = new Size(19, 20);
+            semImposto.Size = new Size(22, 23);
             semImposto.TabIndex = 22;
             semImposto.Text = "0";
             // 
@@ -193,13 +197,14 @@
             Controls.Add(label1);
             Controls.Add(dataGridView1);
             Controls.Add(documentoTextBox);
-            Controls.Add(saveCadastroBtn);
+            Controls.Add(consultarBtn);
             Controls.Add(tipoLabel);
             Controls.Add(tipoDocumento);
             Controls.Add(label2);
             Controls.Add(label3);
             Name = "ConsultaUserControl";
-            Size = new Size(669, 358);
+            Size = new Size(947, 358);
+            Load += ConsultaUserControl_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -208,7 +213,7 @@
         #endregion
 
         private MaskedTextBox documentoTextBox;
-        private Button saveCadastroBtn;
+        private Button consultarBtn;
         private Label tipoLabel;
         private ComboBox tipoDocumento;
         private Label label2;

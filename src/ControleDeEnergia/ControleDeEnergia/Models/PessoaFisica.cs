@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ControleDeEnergia.Models
 {
-    internal class PessoaFisica: Consumidor
+    public class PessoaFisica: Consumidor
     {
-       public string cpf { get; set; }
+        public string CPF { get; set; }
     }
 }

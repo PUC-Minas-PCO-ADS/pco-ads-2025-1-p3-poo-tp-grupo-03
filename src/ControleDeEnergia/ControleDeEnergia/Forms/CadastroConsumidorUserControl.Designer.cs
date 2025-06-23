@@ -43,7 +43,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.ControlDarkDark;
-            label1.Location = new Point(166, 83);
+            label1.Location = new Point(335, 89);
             label1.Name = "label1";
             label1.Size = new Size(56, 20);
             label1.TabIndex = 0;
@@ -54,19 +54,19 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Lucida Sans Unicode", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(166, 16);
+            label2.Location = new Point(335, 0);
             label2.Name = "label2";
             label2.Size = new Size(310, 28);
             label2.TabIndex = 1;
             label2.Text = "Cadastre um Consumidor";
-            label2.Click += this.label2_Click;
+            label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.ControlDarkDark;
-            label3.Location = new Point(170, 133);
+            label3.Location = new Point(339, 139);
             label3.Name = "label3";
             label3.Size = new Size(44, 20);
             label3.TabIndex = 0;
@@ -76,11 +76,11 @@
             // textBox1
             // 
             textBox1.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(240, 80);
+            textBox1.Location = new Point(409, 86);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(225, 32);
             textBox1.TabIndex = 2;
-            textBox1.TextChanged += this.textBox1_TextChanged;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // tipoDocumento
             // 
@@ -89,7 +89,7 @@
             tipoDocumento.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tipoDocumento.FormattingEnabled = true;
             tipoDocumento.Items.AddRange(new object[] { "CPF", "CNPJ" });
-            tipoDocumento.Location = new Point(240, 131);
+            tipoDocumento.Location = new Point(409, 137);
             tipoDocumento.Name = "tipoDocumento";
             tipoDocumento.Size = new Size(225, 28);
             tipoDocumento.TabIndex = 3;
@@ -100,7 +100,7 @@
             tipoLabel.AutoSize = true;
             tipoLabel.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tipoLabel.ForeColor = SystemColors.ControlDarkDark;
-            tipoLabel.Location = new Point(172, 187);
+            tipoLabel.Location = new Point(341, 193);
             tipoLabel.Name = "tipoLabel";
             tipoLabel.Size = new Size(38, 20);
             tipoLabel.TabIndex = 4;
@@ -110,18 +110,18 @@
             // saveCadastroBtn
             // 
             saveCadastroBtn.Cursor = Cursors.Hand;
-            saveCadastroBtn.Location = new Point(275, 249);
+            saveCadastroBtn.Location = new Point(444, 255);
             saveCadastroBtn.Name = "saveCadastroBtn";
             saveCadastroBtn.Size = new Size(134, 51);
             saveCadastroBtn.TabIndex = 6;
             saveCadastroBtn.Text = "Salvar";
             saveCadastroBtn.UseVisualStyleBackColor = true;
-            saveCadastroBtn.Click += this.saveCadastroBtn_Click;
+            saveCadastroBtn.Click += saveCadastroBtn_Click;
             // 
             // documentoTextBox
             // 
             documentoTextBox.Font = new Font("Lucida Sans Unicode", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            documentoTextBox.Location = new Point(240, 182);
+            documentoTextBox.Location = new Point(409, 188);
             documentoTextBox.Name = "documentoTextBox";
             documentoTextBox.Size = new Size(225, 32);
             documentoTextBox.TabIndex = 7;
@@ -140,7 +140,8 @@
             Controls.Add(label3);
             Controls.Add(label1);
             Name = "CadastroConsumidorUserControl";
-            Size = new Size(669, 358);
+            Size = new Size(947, 358);
+            Load += CadastroConsumidorUserControl_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -17,8 +17,9 @@ namespace ControleDeEnergia.Factories
         {
             return tipo switch
             {
-                "PF" => new PessoaFisica { Nome = nome, cpf = documento },
-                "PJ" => new PessoaJuridica { Nome = nome, cnpj = documento }
+                "CPF" => new PessoaFisica { Nome = nome, CPF = documento },
+                "CNPJ" => new PessoaJuridica { Nome = nome, CNPJ = documento },
+                _ => throw new ArgumentException("Tipo de consumidor inválido.")
             };
         }
     }

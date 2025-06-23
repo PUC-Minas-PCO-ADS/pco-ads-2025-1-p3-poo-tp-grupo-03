@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ControleDeEnergia.Repositories
 {
-    internal class RepositorioConsumidor : IRepositorio<Consumidor>
+    public class RepositorioConsumidor : IRepositorio<Consumidor>
     {
         private List<Consumidor> consumidores = new();
         private readonly string caminhoArquivo = "consumidores.txt";

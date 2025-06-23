@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ControleDeEnergia.Models
 {
-    internal class ContaComercial: ContaDeEnergia
+    public class ContaComercial: ContaDeEnergia
     {
         /* De acordo com a regra de negócio dada no exercicio : 
         Para contas comerciais, a tarifa é R$ 0,35 por kW/h

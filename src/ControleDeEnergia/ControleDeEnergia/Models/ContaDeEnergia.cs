@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace ControleDeEnergia.Models
 {
+    [JsonPolymorphic(TypeDiscriminatorPropertyName = "$type")]
+    [JsonDerivedType(typeof(ContaResidencial), "ContaResidencial")]
+    [JsonDerivedType(typeof(ContaComercial), "ContaComercial")]
     public abstract class ContaDeEnergia
     {
         public double LeituraAtual { get; set; }

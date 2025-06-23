@@ -1,18 +1,34 @@
 using ControleDeEnergia.Forms;
+using ControleDeEnergia.Repositories;
 
 namespace ControleDeEnergia
 {
     public partial class Form1 : Form
     {
 
-        // Instâncias dos UserControls como campos da classe
-        private InicioUserControl inicioUserControl = new InicioUserControl();
-        private CadastroConsumidorUserControl cadastroConsumidorUserControl = new CadastroConsumidorUserControl();
-        private CadastroContaUserControl cadastroContaUserControl = new CadastroContaUserControl();
-        private ConsultaUserControl consultaUserControl = new ConsultaUserControl();
+        private RepositorioConsumidor repositorioConsumidor;
+        private RepositorioConta repositorioConta;
+
+        private InicioUserControl inicioUserControl;
+        private CadastroConsumidorUserControl cadastroConsumidorUserControl;
+        private CadastroContaUserControl cadastroContaUserControl;
+        private ConsultaUserControl consultaUserControl;
+
+
         public Form1()
         {
             InitializeComponent();
+
+            // Instancia dos repositorios 
+            repositorioConsumidor = new RepositorioConsumidor();
+            repositorioConta = new RepositorioConta();
+
+            // Instancia dos UserControls
+            inicioUserControl = new InicioUserControl();
+            cadastroConsumidorUserControl = new CadastroConsumidorUserControl(repositorioConsumidor);
+            cadastroContaUserControl = new CadastroContaUserControl(repositorioConsumidor, repositorioConta);
+            consultaUserControl = new ConsultaUserControl(repositorioConsumidor, repositorioConta);
+
             ExibirUserControl(inicioUserControl);
         }
         private void ExibirUserControl(UserControl uc)
@@ -24,7 +40,13 @@ namespace ControleDeEnergia
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            repositorioConsumidor.CarregarArquivo();
+            repositorioConta.CarregarArquivo();
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            repositorioConsumidor.SalvarArquivo();
+            repositorioConta.SalvarArquivo();
         }
 
         private void label1_Click(object sender, EventArgs e)

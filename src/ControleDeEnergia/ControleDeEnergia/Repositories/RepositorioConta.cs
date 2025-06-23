@@ -9,7 +9,7 @@ namespace ControleDeEnergia.Repositories
     public class RepositorioConta : IRepositorio<ContaDeEnergia>
     {
         private List<ContaDeEnergia> contas = new();
-        private readonly string caminhoArquivo = "contas.json";
+        private readonly string caminhoArquivo = "contas.txt";
 
         public void Adicionar(ContaDeEnergia conta)
         {

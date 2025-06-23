@@ -31,6 +31,7 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            consultarBtn = new Button();
             cadastroContaBtn = new Button();
             cadastroBtn = new Button();
             inicioBtn = new Button();
@@ -39,7 +40,6 @@
             label1 = new Label();
             label6 = new Label();
             conteudoPanel = new Panel();
-            consultarBtn = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -57,6 +57,21 @@
             panel1.Size = new Size(200, 489);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
+            // 
+            // consultarBtn
+            // 
+            consultarBtn.Cursor = Cursors.Hand;
+            consultarBtn.FlatAppearance.BorderSize = 0;
+            consultarBtn.FlatStyle = FlatStyle.Flat;
+            consultarBtn.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            consultarBtn.ForeColor = SystemColors.ButtonFace;
+            consultarBtn.Location = new Point(-2, 298);
+            consultarBtn.Name = "consultarBtn";
+            consultarBtn.Size = new Size(196, 53);
+            consultarBtn.TabIndex = 13;
+            consultarBtn.Text = "Consultar";
+            consultarBtn.UseVisualStyleBackColor = true;
+            consultarBtn.Click += consultarBtn_Click;
             // 
             // cadastroContaBtn
             // 
@@ -112,7 +127,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(234, 28);
+            pictureBox2.Location = new Point(306, 12);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(116, 97);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -123,7 +138,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Lucida Sans Unicode", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(388, 64);
+            label1.Location = new Point(542, 59);
             label1.Name = "label1";
             label1.Size = new Size(347, 28);
             label1.TabIndex = 3;
@@ -136,7 +151,7 @@
             label6.Cursor = Cursors.Hand;
             label6.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.Red;
-            label6.Location = new Point(805, 9);
+            label6.Location = new Point(1105, 9);
             label6.Name = "label6";
             label6.Size = new Size(31, 33);
             label6.TabIndex = 10;
@@ -148,31 +163,16 @@
             conteudoPanel.Dock = DockStyle.Bottom;
             conteudoPanel.Location = new Point(200, 131);
             conteudoPanel.Name = "conteudoPanel";
-            conteudoPanel.Size = new Size(669, 358);
+            conteudoPanel.Size = new Size(948, 358);
             conteudoPanel.TabIndex = 11;
             conteudoPanel.Paint += conteudoPanel_Paint_1;
-            // 
-            // consultarBtn
-            // 
-            consultarBtn.Cursor = Cursors.Hand;
-            consultarBtn.FlatAppearance.BorderSize = 0;
-            consultarBtn.FlatStyle = FlatStyle.Flat;
-            consultarBtn.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            consultarBtn.ForeColor = SystemColors.ButtonFace;
-            consultarBtn.Location = new Point(-2, 298);
-            consultarBtn.Name = "consultarBtn";
-            consultarBtn.Size = new Size(196, 53);
-            consultarBtn.TabIndex = 13;
-            consultarBtn.Text = "Consultar";
-            consultarBtn.UseVisualStyleBackColor = true;
-            consultarBtn.Click += consultarBtn_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
-            ClientSize = new Size(869, 489);
+            ClientSize = new Size(1148, 489);
             Controls.Add(conteudoPanel);
             Controls.Add(label6);
             Controls.Add(label1);

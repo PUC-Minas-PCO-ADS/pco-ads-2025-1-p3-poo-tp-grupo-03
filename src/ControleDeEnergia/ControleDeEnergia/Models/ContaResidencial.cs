@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ControleDeEnergia.Models
 {
-    internal class ContaResidencial : ContaDeEnergia
+    public class ContaResidencial : ContaDeEnergia
     {
 
         /* De acordo com a regra de negócio dada no exercicio : 
